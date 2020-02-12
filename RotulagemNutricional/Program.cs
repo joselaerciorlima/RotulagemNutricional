@@ -17,7 +17,7 @@ namespace View
          Application.EnableVisualStyles();
          Application.SetCompatibleTextRenderingDefault(false);
          //Application.Run(new frmPesquisar());
-         Application.Run(new frmCadastroReceita());
+         Application.Run(new frmTabelaNutricional());
       }
    }
 }

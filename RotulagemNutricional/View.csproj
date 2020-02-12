@@ -64,6 +64,12 @@
     <Compile Include="frmCadastroReceita.Designer.cs">
       <DependentUpon>frmCadastroReceita.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTabelaNutricional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelaNutricional.Designer.cs">
+      <DependentUpon>frmTabelaNutricional.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroReceita.resx">
       <DependentUpon>frmCadastroReceita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabelaNutricional.resx">
+      <DependentUpon>frmTabelaNutricional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
