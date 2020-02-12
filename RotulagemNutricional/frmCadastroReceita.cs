@@ -10,12 +10,14 @@ using System.Windows.Forms;
 
 namespace View
 {
-   public partial class frmReceita : Form
+   public partial class frmCadastroReceita : Form
    {
-      public frmReceita()
+      public frmCadastroReceita()
       {
          InitializeComponent();
+
+         
       }
 
-   }
+    }
 }

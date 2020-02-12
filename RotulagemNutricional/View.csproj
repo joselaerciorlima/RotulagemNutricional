@@ -58,11 +58,11 @@
     <Compile Include="frmPesquisar.Designer.cs">
       <DependentUpon>frmPesquisar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmReceita.cs">
+    <Compile Include="frmCadastroReceita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmReceita.Designer.cs">
-      <DependentUpon>frmReceita.cs</DependentUpon>
+    <Compile Include="frmCadastroReceita.Designer.cs">
+      <DependentUpon>frmCadastroReceita.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,23 +72,23 @@
     <EmbeddedResource Include="frmPesquisar.resx">
       <DependentUpon>frmPesquisar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmReceita.resx">
-      <DependentUpon>frmReceita.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastroReceita.resx">
+      <DependentUpon>frmCadastroReceita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -99,10 +99,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\quit.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\add.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cross.png" />
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
